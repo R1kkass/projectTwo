@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@100;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content{
+    min-height: calc(100vh - 100px);
+    .Layout{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 17px;
+        align-items: center;
+        div{
+            margin-right: 30px;
+            padding: 0;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+    .LayoutLogo{
+        display: flex;
+        justify-content: space-around;
+        height: 150px;
+        flex-wrap: wrap;
+        align-self: center;
+        &__button{
+            display: flex;
+            img{
+                align-self: center;
+            }
+            div{
+                display: flex;
+                align-items: center;
+            }
+            h2{
+                font-size: 16px;
+                
+            }
+            div{
+                padding: 20px;
+                
+            }
+            button{
+                border: 2px solid #66C05D;
+                border-radius: 20px;
+                height: 40px;
+                width: 170px;
+                font-size: 14px;
+                
+            }
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            h1{
+                margin-left: 20px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 42px;
+                letter-spacing: 0.1em;
+                color: #66C05D;
+            }
+        }
+    }
+    .LayoutService{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        div{
+            padding: 15px;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+    .Sale{
+        width: 100%;
+        display: flex;
+        
+        height: 604px;
+        align-items: center;
+        background-color: #66C05D;
+        color: white;
+        overflow: hidden;
+        justify-content: center;
+        
+        &__text{
+            width: 308px;
+            margin-right: 10px;
+            p{
+                font-size: 14px;
+            }
+            .mainText{
+                font-size: 48px;
+                font-weight: 700;
+                margin-bottom: 50px;
+            }
+            button{
+                border: 2px solid white;
+                background: none;
+                color: white;
+                width: 170px;
+                height: 40px;
+                border-radius: 20px;
+                margin-top: 50px;
+                font-size: 14px;
+            }
+        }
+        &__img{
+            background-color: rgba(255, 255, 255, 0.3);
+            padding: 100px;
+            border-radius: 50%;
+            img{
+                background-color: rgba(255, 255, 255, 0.4);
+                border-radius: 50%;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .Goods{
+        
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 80px;
+        &__text{
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 38px;
+        }
+        &__unit{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            div{
+                margin-right: 30px;
+                display: flex;
+                width: 255px;
+                flex-wrap: wrap;
+                height: 363px;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                p{
+                    font-size: 14px;
+                    width: 195px;
+                    text-align: center;
+                }
+                button{
+                    background-color: #66C05D;
+                    border-radius: 20px;
+                    color: white;
+                    border: none;
+                    width: 130px;
+                    height: 35px;
+                }
+        }
+        }
+    }
+    .Subscribe{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+        &__sub{
+            width: 540px;
+            height: 212px;
+            background: #66C05D;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            h2{
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 21px;
+            }
+            input{
+                height: 35px;
+                width: 225px;
+                border-radius: 30px;
+                border: none;
+                outline: none;
+                padding: 10px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+            }
+            .Sub__text{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                width: 220px;
+            }
+            .Sub__svg{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                overflow: hidden;
+                div{
+                    div{
+                        position: absolute;                        
+                    }
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            button{
+                background: none;
+                color: white;
+                border: 2px solid white;
+                width: 170px;
+                height: 35px;
+                border-radius: 30px;
+            }
+        }
+    }
+    .SubsMain{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        max-width: 100%;
+        overflow: hidden;
+    }
+}
+
+.Footer{
+    margin-top: 133px;
+    &__Line{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        min-height: 120px;
+        .Line__social{
+        flex-wrap: wrap;
+
+            width: 20%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            div{
+                width: 45px;
+                height: 45px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                border: #66C05D solid 1px;
+            }
+            button{
+                width: 170px;
+                height: 40px;
+                border: 2px solid #66C05D;
+                border-radius: 40px;
+                
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+        .Line__address{
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+    &__secondLine{
+        flex-wrap: wrap;
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 12px;
+        color: #828282;
+        min-height: 64px;
+    }
+}
